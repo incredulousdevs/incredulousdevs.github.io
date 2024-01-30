@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #212730;
+    color: #fff;
+    height: 100%; /* Set the height of the body and html to full viewport height */
+}
+
+.container {
+    background-color: #15191f;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Use flexbox to align children */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    height: 100vh; /* Set the height of the container to full viewport height */
+    box-sizing: border-box; /* Ensure padding is included in height calculation */
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 420px;
+    height: auto;
+}
+
+.slogan {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin: 0 10px;
+}
+
+.website {
+    background-image: url('media/website.png');
+}
+
+.steam {
+    background-image: url('media/steam.png');
+}
+
+.itch-io {
+    background-image: url('media/itch.png');
+}
+.twitter {
+    background-image: url('media/x.png');
+}
+
+.instagram {
+    background-image: url('media/instagram.png');
+}

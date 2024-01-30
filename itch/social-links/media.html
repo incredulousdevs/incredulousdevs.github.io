@@ -1,0 +1,57 @@
+<style>
+  .img-hover-zoom img {
+    transition: transform 0.3s, filter 0.3s ease-in-out;
+  }
+
+  .img-hover-zoom:hover img {
+    transform: scale(1.2);
+    filter: opacity(80%);
+  }
+
+  .relative {
+    top: 0px;
+    left: 0px;
+  }
+
+  .invisible {
+    pointer-events: none;
+  }
+</style>
+<table>
+  <tr>
+    <td>
+      <div class="img-hover-zoom relative">
+        <a href="https://incredulous.io" target="_blank">
+          <img src="website.png" width="100%" />
+        </a>
+      </div>
+    </td>
+    <td width="20%"></td>
+    <td>
+      <div class="img-hover-zoom relative">
+        <a
+          href="https://store.steampowered.com/developer/incredulous"
+          target="_blank"
+        >
+          <img src="steam.png" width="100%" />
+        </a>
+      </div>
+    </td>
+    <td width="20%"></td>
+    <td>
+      <div class="img-hover-zoom relative">
+        <a href="https://www.instagram.com/incredulousdevs" target="_blank">
+          <img src="instagram.png" width="100%" />
+        </a>
+      </div>
+    </td>
+    <td width="20%"></td>
+    <td>
+      <div class="img-hover-zoom relative">
+        <a href="https://x.com/incredulousdevs" target="_blank">
+          <img src="x.png" width="100%" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
